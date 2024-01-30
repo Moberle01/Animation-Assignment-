@@ -1,0 +1,18 @@
+body {
+        background:url("https://storage.googleapis.com/subtlepatterns-production/designers/subtlepatterns/uploads/geometric-leaves.png");
+        font-family: sans-serif;
+}
+.box {
+    width: 40%;
+    height: 200px;
+    background: orange;
+    border-radius: 2px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin: 200px auto;
+}
+section {
+    margin: 600px auto;
+    text-align: center;
+}

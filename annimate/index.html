@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">The DePaul ASL Avatar Project.</p>
+            </div>
+
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">DePaul University School of Computing</a></li>
+                <li><a href="#" class="text-white">243 So. Wabash Avenue Chicago, IL</a></li>
+                <li><a href="#" class="text-white">asl@cs.depaul.edu</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="#" class="navbar-brand d-flex align-items-center"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+  
+    
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="images/istockphoto-578796558-612x612.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">ASL Gamification: Fingerspelling Bee</h1>
+            <p class="lead">The Fingerspelling Bee Application is intended to aid users with learning, identifying, and enhancing their capabilities at fingerspelling.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Fingerspelling Bee</h1>
+          <p class="lead text-muted">The ASL Avatar Project aims to develop a system that can generate ASL animation in response to spoken English. An avatar named Paula can portray all linguistic parameters of ASL. Paula has earned high marks for clarity and naturalness from users fluent in ASL. The web app makes use of this avatar to prompt the user interaction. The aim of this particular project is to evaluate, expand, and define the design and functionality of a mobile application while implementing game-design elements to the structure (gamification).</p>
+        </div>
+      </div>
+    </section>
+  
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+        body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+        }
+    
+        .image-section {
+          overflow: hidden;
+          position: relative;
+        }
+    
+        .image-container {
+          display: flex;
+          animation: fadeInFromRight 1s ease-in-out;
+        }
+    
+        .image {
+          width: 25%;
+          height: auto;
+          object-fit: cover;
+          opacity: 0;
+          animation: fadeIn 1s ease-in-out forwards;
+        }
+    
+        @keyframes fadeIn {
+          0% {
+            opacity: 0;
+            transform: translateX(50%);
+          }
+          100% {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+    
+        @keyframes fadeInFromRight {
+          0% {
+            transform: translateX(100%);
+          }
+          100% {
+            transform: translateX(0);
+          }
+        }
+      </style>
+    </head>
+    <body>
+    
+    <section class="image-section">
+      <div class="image-container">
+        <img class="image" src="images/finterspelling.png" alt="Image 1">
+        <img class="image" src="images/quick_edit.png" alt="Image 2">
+        <img class="image" src="images/quick_settings.png" alt="Image 3">
+        <img class="image" src="images/profile.png" alt="Image 4">
+      </div>
+    </section>
+    
+    </body>
+    </html>
+    
+    
+
+
+    <div class="container my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1">Overview of the ASL Project</h1>
+            <p class="lead">Our goal is to enable automatic translation of English into American Sign Language, the language of the Deaf in North America. American Sign Language is not English coded as signs but an entirely different language from English with an entirely different structure.
+                Automated English-to- ASL translation will increase Deaf access to the hearing world. We are currently developing tools for generating ASL animation in response to spoken English.
+                Our avatar, named "Paula" for DePaul University, can portray all linguistic parameters of ASL. Paula has earned high marks for clarity and naturalness from users fluent in ASL.
+                In addition to producing signed language, Paula has participated in several related projects, from Deaf education and interpreter training, to tutoring caregivers of people who are both deaf and mentally challenged.
+                </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+            </div>
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          </div>
+        </div>
+      </div>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class=" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Prototype</text></svg>
+  
+              <div class="card-body">
+                <p class="card-text">The initial screen when the application opens will be ‘Fingerspelling’. It was decided this would be the main focus of the app and will work as the Home Screen overall. </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+ 
+
+
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Text Input</text></svg>
+  
+              <div class="card-body">
+                <p class="card-text">Since Paula will be an ever presence figure on the app when possible, the user will access the text input by clicking on the keyboard icon on the bottom of the screen. This will open of a pop up where an input can be made. </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+            
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Practice</text></svg>
+  
+              <div class="card-body">
+                <p class="card-text">Second screen in the bottom navigation menu. User can exercise their knowledge as Paula fingerspells words. User can also adjust the categories that filters the words Paula will spell. For every correct word, the user will collect a certain amount of coins or points. </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                   
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Complete</text></svg>
+  
+              <div class="card-body">
+                <p class="card-text">This feature will require the user to sign up or sign in prior of using it. In compete, the user can create a new competition with another user or contact/friend. Two challenges are available: speed or spelling bee challenge. For every correct word, the user will collect a certain amount of coins or points.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    
+                  </div>
+                  <small class="text-muted"></small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Profile</text></svg>
+  
+              <div class="card-body">
+                <p class="card-text">User can adjust their default settings, check their level status (level, points, and badges), see their account information, invite a friend, or log out. </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    
+                  </div>
+                  <small class="text-muted"></small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Quick Settings</text></svg>
+  
+              <div class="card-body">
+                <p class="card-text">Users can adjust some settings on the go from the ‘Quick Settings’ drop-down menu. Depending on the screen, the user will be able to adjust the speed and length of the words Paula will be spelling. </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    
+                  
+              </div>
+            </div>
+          </div>
+  
+
+          
+    
+        
+        
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
